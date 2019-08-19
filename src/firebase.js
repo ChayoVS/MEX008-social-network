@@ -242,7 +242,7 @@ const contadorLikes = () => {
       const btnDislike = document.getElementById("btn-dislike");
       const contadorDislikes = () => {
     i = i - 1;
-    btnLike.value = "Like ("+i +")";
+    btnLike.value = "Like ("+ i +")";
 }
 
       btnDislike.addEventListener('click', contadorDislikes);
